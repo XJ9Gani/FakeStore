@@ -1,0 +1,22 @@
+.header {
+  @apply p-[10px] h-[80px]  flex justify-around;
+}
+
+.headerNavbar {
+  @apply p-[10px] w-[33%] h-[50px] flex justify-around text-2xl;
+}
+.navItem {
+  @apply block;
+}
+.headerLogo {
+  @apply w-[30%];
+}
+.headerLogoContainer {
+  @apply w-[10%] block m-auto;
+}
+.headerIconSection {
+  @apply flex justify-around w-[30%] h-[50px];
+}
+.headerIconItem {
+  @apply block bg-black p-[16px] rounded-[50px] w-[50px];
+}
